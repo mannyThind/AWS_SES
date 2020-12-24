@@ -1,4 +1,4 @@
-WS = require('aws-sdk');
+var AWS = require('aws-sdk');
 AWS.config.loadFromPath('./path/to/credentials.json');
 // Set the region 
 AWS.config.update({region: 'us-west-2'});
